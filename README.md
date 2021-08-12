@@ -2,7 +2,7 @@
 
 A game with 4 buttons. The UI should be responsive. The reset button is the only one that gets moved as the screen size changed.
 
-Clone repo and install app's depnedencies for both of client and server
+Clone this repo then install app's depnedencies for both of client and server
 
 ```bash
 # install app's dependencies

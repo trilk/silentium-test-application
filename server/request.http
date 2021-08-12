@@ -1,0 +1,53 @@
+GET http://localhost:5000/api/transition/init
+
+###
+
+POST http://localhost:5000/api/transition/green
+Content-Type: application/json
+
+{
+  "currentstep": "blue",
+  "disabled": false
+}
+
+###
+
+POST http://localhost:5000/api/transition/yellow
+Content-Type: application/json
+
+{
+  "currentstep": "blue",
+  "disabled": false
+}
+
+###
+
+POST http://localhost:5000/api/transition/yellow
+Content-Type: application/json
+
+{
+  "currentstep": "blue",
+  "disabled": true
+}
+
+###
+
+POST http://localhost:5000/api/transition/blue
+Content-Type: application/json
+
+{
+  "currentstep": "green",
+  "disabled": false
+}
+
+###
+
+POST http://localhost:5000/api/transition/blue
+Content-Type: application/json
+
+{
+  "currentstep": "yellow",
+  "disabled": false
+}
+
+###
